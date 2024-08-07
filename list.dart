@@ -31,7 +31,19 @@ void main() {
   // print(list..insertAll(0, [1, 2, 3]));
   // print(list..remove(0));
   // print(list..removeAt(list.length - 1));
-  print(list..clear());
+  // print(list..clear());
+  // print(list.hashCode);
+  // print(list.single); // error because there are multiple elements
+  // print(list.singleOrNull);
+  // print(list.toString().runtimeType); // String now
+  // print(list.removeAt(0));
+  // print(list.takeWhile((e) => e > 9)); // similar to retainWhere, but return iterable
+  // print(list.skipWhile((e) => e > 10));
+  // print(list.join(",").runtimeType);
+  // print(list.contains(10)); // true
+  // print(list.indexOf(10));
+  // print(list.indexWhere((e) => e > 30)); // 3 return first index, when condition is true
+  // print(list.lastIndexWhere((e) => e > 30));
 }
 
 // reduce() method is remaining, will learn it when we will reach at Advanced level.
