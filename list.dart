@@ -1,5 +1,5 @@
 void main() {
-  List list = [10, 20, 30, 40, 50, 51];
+  List list = [10, 20, 30, 40, 10, 50, 51];
   // print(list.sublist(3, 5));
   // print(list..shuffle());
   // print(list.reversed.toList());
@@ -43,7 +43,8 @@ void main() {
   // print(list.contains(10)); // true
   // print(list.indexOf(10));
   // print(list.indexWhere((e) => e > 30)); // 3 return first index, when condition is true
-  // print(list.lastIndexWhere((e) => e > 30));
+  // print(list.lastIndexWhere((e) => e > 50));
+  // print(list.lastIndexOf(10));
 }
 
 // reduce() method is remaining, will learn it when we will reach at Advanced level.
