@@ -43,7 +43,7 @@ void main() {
   // print(list.contains(10)); // true
   // print(list.indexOf(10));
   // print(list.indexWhere((e) => e > 30)); // 3 return first index, when condition is true
-  // print(list.lastIndexWhere((e) => e > 50));
+  // print(list.lastIndexWhere((e) => e > 20));
   // print(list.lastIndexOf(10));
 }
 
